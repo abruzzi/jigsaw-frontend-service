@@ -6,6 +6,26 @@ public class Staff {
     private String loginName;
     private String employeeId;
 
+    private String projectPreferences;
+
+    public String getLongTermGoal() {
+        return longTermGoal;
+    }
+
+    public void setLongTermGoal(String longTermGoal) {
+        this.longTermGoal = longTermGoal;
+    }
+
+    public String getProjectPreferences() {
+        return projectPreferences;
+    }
+
+    public void setProjectPreferences(String projectPreferences) {
+        this.projectPreferences = projectPreferences;
+    }
+
+    private String longTermGoal;
+
     public String getGender() {
         return gender;
     }
