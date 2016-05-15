@@ -1,0 +1,4 @@
+jigsaw-frontend-service.i*
+build/
+out/
+.gradle/
